@@ -1,5 +1,5 @@
 def get_human_age(cat_age: int, dog_age: int) -> list:
-    if not instanceof(cat_age, int) or not instanceof(dog_age, int):
+    if not isinstance(cat_age, int) or not isinstance(dog_age, int):
         raise TypeError("Cat and dog age must be an instance of int")
 
     human_cat = 0
